@@ -1,0 +1,24 @@
+.brand {
+    @include centering(20%);
+
+    @include flexLayout();
+
+    color: $color-primary;
+
+    i {
+        font-size: 45px;
+        border: 5px solid $color-primary;
+        border-radius: 50%;
+        padding: 20px;
+        margin-right: 10px;
+        color: $color-primary;
+    }
+}
+.header-brand{
+    @include centering(40%);
+    color: $color-primary;
+    @include flexLayout();
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: $font-nunito;
+}
