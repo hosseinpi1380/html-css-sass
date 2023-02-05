@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'iranSans';
+    src: url(/FontsFree-Net-ir_sans.ttf);
+}
+h2{
+    font-family: 'iranSans';
+}
+@font-face {
+    font-family: 'custom';
+    src: url(/fonts/KinderSchoolDemoSketch.ttf);
+}
+h3{
+    font-size: 54px;
+    font-family: 'custom';
+}
